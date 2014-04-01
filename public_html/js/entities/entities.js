@@ -7,6 +7,7 @@ game.PlayerEntity = me.ObjectEntity.extend ({
    
    this.renderable.addAnimation("idle", [4]);
    this.renderable.setCurrentAnimation("idle");
+   
    this.setVelocity(5, 20);
     },
     
@@ -24,4 +25,3 @@ game.PlayerEntity = me.ObjectEntity.extend ({
 
       }    
 });  
- 
